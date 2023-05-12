@@ -1,14 +1,27 @@
+import { useState } from 'react';
 import './App.css';
-import firtsImg from './images/first-screen-image.svg'
+import LightTheme from './components/LightTheme';
 
 
 function App() {
-  return (
+
+  const [theme, setTheme] = useState(0);
+
+
+  if (!theme){
+    return (
     <div className='App'>
-      <img className='first-screen-image' src={firtsImg}></img>
-      
+        <LightTheme/>
     </div>
-  );
+    );
+  }
+  else{
+    return (
+      <div className='App'>
+          Dark Theme
+      </div>
+    );
+  }
 }
 
 export default App;
