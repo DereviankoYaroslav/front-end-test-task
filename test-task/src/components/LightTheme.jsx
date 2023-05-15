@@ -5,6 +5,7 @@ import firtsImg from '../images/first-screen-image.svg'
 import Info from './Info'
 import Benefits from './Benefits'
 import Quote from './Quote'
+import Video from './Video'
 
 const LightTheme = () => {
   return (
@@ -16,6 +17,7 @@ const LightTheme = () => {
         <Info />
         <Benefits />
         <Quote />
+        <Video />
     </div>
   )
 }
