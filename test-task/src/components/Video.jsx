@@ -11,7 +11,6 @@ const Video = () => {
         <div className='screensaver-for-video'>
             <div className='tablet'>
                 <div className='rect'>
-                    <div className='screensaver-video'></div>
                     <div className='eclipse-1'></div>
                     <div className='eclipse-2'></div>
                 </div>
