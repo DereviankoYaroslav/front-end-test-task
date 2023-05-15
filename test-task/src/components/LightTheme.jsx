@@ -8,6 +8,7 @@ import Quote from './Quote'
 import Video from './Video'
 import PromicesSection from './PromicesSection'
 import Reviews from './Reviews'
+import Contact from './Contact'
 
 const LightTheme = () => {
   return (
@@ -22,6 +23,7 @@ const LightTheme = () => {
         <Video />
         <PromicesSection />
         <Reviews />
+        <Contact />
     </div>
   )
 }
