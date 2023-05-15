@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div>
         <div className='section-info'>
-            <img src={statisticImage} alt='statistic-image'></img>
+            <img src={statisticImage} alt='statistic'></img>
         </div>
         <div className='statistic-background'>
             <div className='info-list'>
