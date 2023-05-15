@@ -4,6 +4,7 @@ import FirstScreenContent from './FirstScreenContent'
 import firtsImg from '../images/first-screen-image.svg'
 import Info from './Info'
 import Benefits from './Benefits'
+import Quote from './Quote'
 
 const LightTheme = () => {
   return (
@@ -14,6 +15,7 @@ const LightTheme = () => {
         <FirstScreenContent/>
         <Info />
         <Benefits />
+        <Quote />
     </div>
   )
 }
