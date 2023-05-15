@@ -17,7 +17,8 @@ const Video = () => {
                 </div>
             </div>
         </div>
-        <p></p>
+        <p className='video-main-text'>A powerful API , easy to use user interface</p>
+        <p className='video-decs'>Our API allows all members to interact with Stablehouse’s platform, from effecting transfers to deposits, withdrawals, creation and redemption and reporting.</p>
     </div>
     </div>
   )
