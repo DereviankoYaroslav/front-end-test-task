@@ -6,6 +6,8 @@ body, html {
   background-color: #E5E5E5;
 }
 
+
+/* HEADER */
 .header {
   position: absolute;
   width: 100vw;
@@ -20,6 +22,56 @@ body, html {
   text-align: center;
   vertical-align: middle;
 }
+
+.header-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  height: 80px;
+}
+
+.logo{
+  width: 107.2px;
+  height: 32px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.item-header{
+  width: auto;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.header-text{
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.08em;
+
+  /* Primary / Dark blue */
+
+  color: #262A3F;
+}
+
+/* FIRST SCREEN */
 
 .first-screen-image{
   width: 100vw;
