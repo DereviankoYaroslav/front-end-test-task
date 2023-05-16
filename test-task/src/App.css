@@ -2,16 +2,67 @@ body, html {
   font-family: 'Lato', sans-serif;
 }
 
-.App {
-  background-color: #E5E5E5;
-}
-
 .different-text{
   color: #85BBB1;
   font-style: italic;
 }
 
+.dark {
+  background: #161926;
+}
+.light {
+  background-color: #fff;
+}
+
 /* FIRST SCREEN */
+
+.toggle-button-light{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background: none;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+
+  color: #262A3F;
+}
+
+.toggle-button-dark{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background: none;
+  border: 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+
+  color: #ffffff;
+}
+
+.toggle-button-light:hover{
+  cursor: pointer;
+  border-color: #161926;
+  border: 2px dashed #181626;
+}
+
+.toggle-button-dark:hover{
+  cursor: pointer;
+  border-color: #ffffff;
+  border: 2px dashed #ffffff;
+}
 
 .first-screen-image{
   width: 100vw;
@@ -20,7 +71,7 @@ body, html {
   top: 0px;
 }
 
-.gradient-for-first-screen{
+.gradient-for-first-screen-light{
   position: absolute;
   width: 100%;
   height: 825.75px;
@@ -28,4 +79,14 @@ body, html {
   top: 550.12px;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 46.73%, #FFFFFF 63.21%);
+}
+
+.gradient-for-first-screen-dark{
+  position: absolute;
+  width: 100%;
+  height: 825.75px;
+  left: 0px;
+  top: 550.12px;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46.73%, #161926 63.21%);
 }

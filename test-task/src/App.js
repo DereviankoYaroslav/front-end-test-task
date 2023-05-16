@@ -1,27 +1,33 @@
-import { useState } from 'react';
-import './App.css';
-import LightTheme from './components/LightTheme';
+import { createContext, useEffect, useState } from "react";
+import "./App.css";
+import MainContent from "./components/MainContent";
+import { Context } from './contexts/context';
 
 
 function App() {
 
-  const [theme, setTheme] = useState(0);
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
 
+  const value = theme;
 
-  if (!theme){
-    return (
-    <div className='App'>
-        <LightTheme/>
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+  return (
+    <div className={`App ${theme}`}>
+      <button className={`toggle-button-${theme}`} onClick={toggleTheme}>Toggle Theme</button>
+      <Context.Provider value={value}>
+        <MainContent/>
+      </Context.Provider>
     </div>
-    );
-  }
-  else{
-    return (
-      <div className='App'>
-          Dark Theme
-      </div>
-    );
-  }
+  );
 }
 
 export default App;

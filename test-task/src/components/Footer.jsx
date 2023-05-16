@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../modules/Footer.module.css'
 
 const Footer = () => {
+
   return (
     <div className={styles.footer}>
         <div className={styles.footerRow}>
