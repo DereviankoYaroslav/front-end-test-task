@@ -1,21 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.svg'
+import styles from '../modules/Header.module.css'
 
 const Header = () => {
   return (
-    <div className='header'>
-        <div className='header-row'>
-            <div className='logo'>
-                <img src={logo}></img>
+    <div className={styles.header}>
+        <div className={styles.headerRow}>
+            <div className={styles.logo}>
+                <img src={logo} alt='logo'></img>
             </div>
-            <div className='item-header'>
-                <Link className='header-text'>Home</Link>
-                <Link className='header-text'>About</Link>
-                <Link className='header-text'>Products</Link>
-                <Link className='header-text'>Use Cases</Link>
-                <Link className='header-text'>Pricing</Link>
-                <Link className='header-text'>Resources</Link>
+            <div className={styles.itemHeader}>
+                <Link className={styles.headerText}>Home</Link>
+                <Link className={styles.headerText}>About</Link>
+                <Link className={styles.headerText}>Products</Link>
+                <Link className={styles.headerText}>Use Cases</Link>
+                <Link className={styles.headerText}>Pricing</Link>
+                <Link className={styles.headerText}>Resources</Link>
             </div>
         </div>
     </div>

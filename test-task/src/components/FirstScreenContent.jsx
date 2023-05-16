@@ -1,12 +1,13 @@
 import React from 'react'
+import styles from '../modules/FirstScreenContent.module.css'
 
 const FirstScreenContent = () => {
   return (
-    <div className='first-screen-content'>
-        <h1 className='text-one'>A peer-to-peer stablecoin clearinghouse for the new economy</h1>
-        <p className='text-two'>We are bringing real solutions to the payments world by leveraging public blockchains.</p>
-        <button className='join-button'>JOIN NOW</button>
-        <p className='button-bg'></p>
+    <div className={styles.firstScreenContent}>
+        <h1 className={styles.textOne}>A peer-to-peer stablecoin clearinghouse for the new economy</h1>
+        <p className={styles.textTwo}>We are bringing real solutions to the payments world by leveraging public blockchains.</p>
+        <button className={styles.joinButton}>JOIN NOW</button>
+        <p className={styles.buttonBg}></p>
     </div>
   )
 }

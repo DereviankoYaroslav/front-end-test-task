@@ -1,0 +1,151 @@
+/* INFO */
+
+.sectionInfo{
+    position: absolute;
+    width: 1170px;
+    height: 670px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 712px;
+  }
+  
+  .statisticBackground{
+    padding-top: 45px;
+    position: absolute;
+    width: 770px;
+    height: 540px;
+    left: 40%;
+    top: 757px;
+  
+    background: #FFFFFF;
+    opacity: 0.9;
+    display: flex;
+  }
+  
+  .infoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+  
+    width: 370px;
+    height: 490px;
+    left: 535px;
+    top: 802px;
+  }
+  
+  .listItem{
+    justify-content: flex-end;
+    padding: 0px;
+    gap: 12px;
+  
+    width: 370px;
+    height: 110px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .divider{
+    width: 100px;
+    height: 0px;
+    border: 1px solid #85BBB1;
+  }
+  
+  .mainText{
+    width: auto;
+    height: 72px;
+  
+    text-align: center;
+    margin: auto;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 72px;
+  
+    color: #262A3F;
+  }
+  
+  .secondaryText{
+    width: auto;
+    height: 26px;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  
+  
+    color: #262A3F;
+  
+    opacity: 0.8;
+  
+  }
+  
+  .infoText{
+    width: 400px;
+    height: 389px;
+    left: 905px;
+    top: 802px;
+  }
+  
+  .innerText{
+    width: 400px;
+    height: 315px;
+    left: 905px;
+    top: 802px;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #262A3F;
+  
+    opacity: 0.8;
+  }
+  
+  .contactButton{
+    margin-top: 50px;
+    left: 0%;
+    right: 3.85%;
+    top: 0%;
+    bottom: 16.67%;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+  
+    color: #F1897B;
+    z-index: 999;
+  }
+  
+  .contactButton:hover{
+    color: #E64F3A;
+  }
+  
+  .contactButtonBg{
+    position: absolute;
+    left: 50.5%;
+    right: 0%;
+    top: 72.5%;
+    height: 13px;
+    width: 172px;
+    bottom: 0%;
+  
+    background: #F1897B;
+    opacity: 0.3;
+    z-index: -1;
+  }

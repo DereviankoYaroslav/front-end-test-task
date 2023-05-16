@@ -1,0 +1,65 @@
+/* QUOTE */
+
+.sectionQuote{
+    position: absolute;
+    width: 1170px;
+    height: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2242px;
+    background-image: url(../images/quote-background.svg);
+}
+  
+.quoteText{
+    width: 770px;
+    height: 230px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+  
+.quoteTextInner{
+    align-items: center;
+    margin-left: 15%;
+    width: 710px;
+    height: 200px;
+    left: 295px;
+    top: 2342px;
+}
+  
+.quoteMark{
+    position: absolute;
+    width: 100px;
+    height: 81px;
+}
+  
+.quoteMainText{
+    width: 710px;
+    height: 140px;
+    left: 295px;
+    top: 2342px;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+  
+    color: #FFFFFF;
+}
+  
+.quoteDesc{
+    width: 497.2px;
+    height: 20px;
+    left: 295px;
+    top: 2522px;
+  
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+  
+    color: #FFFFFF;
+}

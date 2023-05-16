@@ -1,19 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import styles from '../modules/Footer.module.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-        <div className='footer-row'>
-            <div className='item-footer'>
-                <p className='footer-text'>© 2023 Solisgroup. All Rights Reserved.</p>
+    <div className={styles.footer}>
+        <div className={styles.footerRow}>
+            <div className={styles.itemFooter}>
+                <p className={styles.footerText}>© 2023 Solisgroup. All Rights Reserved.</p>
             </div>
-            <div className='item-footer'>
-                <p className='footer-text'>made by Yaroslav Derevianko</p>
+            <div className={styles.itemFooter}>
+                <p className={styles.footerText}>made by Yaroslav Derevianko</p>
             </div>
-            <div className='item-footer'>
-                <Link className='footer-text-2'>User Agreement</Link>
-                <Link className='footer-text-2'>Privacy Policy</Link>
+            <div className={styles.itemFooter}>
+                <Link className={styles.footerText2}>User Agreement</Link>
+                <Link className={styles.footerText2}>Privacy Policy</Link>
             </div>
         </div>
     </div>

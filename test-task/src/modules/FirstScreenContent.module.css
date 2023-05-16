@@ -1,0 +1,80 @@
+/* FIRST SCREEN CONTENT */
+
+.firstScreenContent{
+    position: absolute;
+    width: 523px;
+    height: 302px;
+    left: 30%;
+    transform: translate(-30%);
+    top: 260px;
+  }
+  
+  .textOne{
+    width: 523px;
+    height: 156px;
+    left: 135px;
+    top: 260px;
+  
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52px;
+  
+    color: #262A3F;
+  }
+  
+  .textTwo{
+    width: 439px;
+    height: 52px;
+    left: 135px;
+    top: 436px;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #262A3F;
+  
+    opacity: 0.8;
+  }
+  
+  .joinButton{
+    left: 0%;
+    right: 5.74%;
+    top: 0%;
+    bottom: 16.67%;
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+  
+    color: #F1897B;
+    z-index: 999;
+  }
+  
+  .joinButton:hover{
+    color: #E64F3A;
+  }
+  
+  .buttonBg{
+    position: absolute;
+    left: 3%;
+    right: 0%;
+    top: 93%;
+    height: 12px;
+    width: 112px;
+    bottom: 0%;
+  
+    background: #F1897B;
+    opacity: 0.3;
+    z-index: -1;
+  }
