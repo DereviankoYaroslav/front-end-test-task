@@ -101,6 +101,7 @@
   
 .inputButton:hover{
     color: #E64F3A;
+    cursor: pointer;
 }
   
 .inputButtonBg{

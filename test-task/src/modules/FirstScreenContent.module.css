@@ -7,9 +7,9 @@
     left: 30%;
     transform: translate(-30%);
     top: 260px;
-  }
+}
   
-  .textOne{
+.textOne{
     width: 523px;
     height: 156px;
     left: 135px;
@@ -22,9 +22,9 @@
     line-height: 52px;
   
     color: #262A3F;
-  }
+}
   
-  .textTwo{
+.textTwo{
     width: 439px;
     height: 52px;
     left: 135px;
@@ -38,9 +38,9 @@
     color: #262A3F;
   
     opacity: 0.8;
-  }
+}
   
-  .joinButton{
+.joinButton{
     left: 0%;
     right: 5.74%;
     top: 0%;
@@ -59,13 +59,14 @@
   
     color: #F1897B;
     z-index: 999;
-  }
+}
   
-  .joinButton:hover{
+.joinButton:hover{
     color: #E64F3A;
-  }
+    cursor: pointer;
+}
   
-  .buttonBg{
+.buttonBg{
     position: absolute;
     left: 3%;
     right: 0%;
@@ -77,4 +78,4 @@
     background: #F1897B;
     opacity: 0.3;
     z-index: -1;
-  }
+}

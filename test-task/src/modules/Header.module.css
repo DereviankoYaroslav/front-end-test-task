@@ -8,13 +8,12 @@
   
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(4.5px);
-    /* Note: backdrop-filter has minimal browser support */
     font-size: x-large;
     text-align: center;
     vertical-align: middle;
-  }
+}
   
-  .headerRow{
+.headerRow{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,30 +22,27 @@
     margin-bottom: 5%;
     height: 80px;
     width: 100%;
-  }
+}
   
-  .logo{
+.logo{
     width: 107.2px;
     height: 32px;
-  
-  
-    /* Inside auto layout */
-  
+
     flex: none;
     order: 0;
     flex-grow: 0;
     z-index: 0;
-  }
+}
   
-  .itemHeader{
+.itemHeader{
     width: auto;
     flex: none;
     order: 2;
     flex-grow: 0;
     z-index: 2;
-  }
+}
   
-  .headerText{
+.headerText{
     margin: 20px;
     text-decoration: none;
     font-family: 'Lato';
@@ -57,4 +53,4 @@
     letter-spacing: 0.08em;
   
     color: #262A3F;
-  }
+}

@@ -7,7 +7,7 @@ const Contact = () => {
         <div className={styles.contactsDivider}></div>
         <div className={styles.contactRow}>
             <div className={styles.itemContact1}>
-                <p className={styles.contactsMainText}>Contact  our sales team</p>
+                <p className={styles.contactsMainText}>Contact <span className='different-text'> our sales team</span></p>
                 <p className={styles.contactsDesc}>Our team is happy to answer your sales questions.Fill out the form and we’ll be in touch as soon as possible.</p>
             </div>
             <div className={styles.itemContact2}>

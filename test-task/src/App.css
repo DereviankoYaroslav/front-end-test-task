@@ -6,6 +6,11 @@ body, html {
   background-color: #E5E5E5;
 }
 
+.different-text{
+  color: #85BBB1;
+  font-style: italic;
+}
+
 /* FIRST SCREEN */
 
 .first-screen-image{

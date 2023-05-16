@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
     <div className={styles.reviews}>
         <div className={styles.heading}>
-            <p className={styles.headingMainText}>Client  reviews</p>
+            <p className={styles.headingMainText}>Client <span className='different-text'> reviews</span></p>
             <p className={styles.headingDesc}>Happy clients, happy us. Read our client reviews about the work process and results.</p>
         </div>
         <div className={styles.reviewsRow}>

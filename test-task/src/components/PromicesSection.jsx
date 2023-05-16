@@ -13,7 +13,7 @@ const PromicesSection = () => {
                 <div className={styles.promicesRow}>
                     <div className={styles.itemPromices}>
                         <p className={styles.promicesMainText}>On-Exchange Trading</p>
-                        <p className={styles.promicesDesc}>Instant Passive Inventory earns fees</p>
+                        <p className={styles.promicesDesc}>Instant Passive <br/> Inventory earns fees</p>
                     </div>
                     <div className={styles.itemPromices}>
                         <p className={styles.promicesMainText}>On-Chain Swaps</p>

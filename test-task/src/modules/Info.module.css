@@ -134,6 +134,7 @@
   
   .contactButton:hover{
     color: #E64F3A;
+    cursor: pointer;
   }
   
   .contactButtonBg{
